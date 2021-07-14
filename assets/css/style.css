@@ -102,6 +102,46 @@ header p{
     transition: 300ms ease;
 }
 
+header a{
+    text-decoration: none;
+}
+
+
+/* ABOUT  */
+
 .about{
-    height: 100vh;
+    height: 70vh;
+}
+
+.about .row{
+    margin-top: 150px;
+    text-align: left;
+}
+
+.about .row .col-lg-7 h2{
+    padding-top: 50px;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.about .row .col-lg-7 h1{
+    font-size: 140px;
+    font-weight: bold;
+}
+
+.about .row .col-lg-7 h3{
+    font-size: 24px;
+}
+
+.about .row div{
+    height: 100%;
+}
+
+.bd {
+    border-left: 2px solid black;
+}
+
+.about .row .col-lg-5 p{
+    font-size: 24px;
+    padding-left: 25px;
 }
