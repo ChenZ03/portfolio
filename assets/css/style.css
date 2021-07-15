@@ -11,9 +11,9 @@
     /* overflow-x: hidden; */
 }
 
-@media (max-width :976px){
+@media (max-width : 1025px){
     *{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 }
 
