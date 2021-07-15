@@ -231,7 +231,7 @@ header a{
 }
 
 @media (max-width :992px){
-    .button2{
+    .bbtn{
         display: none !important;
     }
 }
