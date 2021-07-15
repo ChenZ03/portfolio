@@ -8,7 +8,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'AgencyFB' , sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+}
+
+@media (max-width :976px){
+    *{
+        overflow-x: hidden;
+    }
 }
 
 ::-webkit-scrollbar{
@@ -44,6 +50,40 @@ header{
     align-items: center;
     color: white;
     font-family: 'AgencyFB', sans-serif;
+}
+
+@media (max-width : 996px){
+    .typewriter h1{
+        font-size: 60px !important;
+    }
+}
+
+@media (max-width : 658px){
+    .typewriter h1{
+        font-size: 40px !important;
+    }
+
+    header p{
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width : 400px){
+    .typewriter h1{
+        font-size: 30px !important;
+    }
+
+    header p{
+        font-size: 14px !important;
+    }
+
+    .button{
+        font-size: 14px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
 }
 
 .typewriter h1 {
@@ -136,6 +176,15 @@ header a{
     height: 100%;
 }
 
+@media (max-width: 996px){
+    .bd{
+        border-top: 2px solid black !important;
+        border-left: none !important;
+        margin-top: 90px !important;
+        padding-top: 30px !important;
+    }
+}
+
 .bd {
     border-left: 2px solid black;
 }
@@ -159,7 +208,7 @@ header a{
 }
 
 .skills img{
-    padding: 0;
+    padding: 20px;
     width: 200px;
 }
 
@@ -171,6 +220,7 @@ header a{
 .projects{
     margin-top: 60px;
     margin-bottom: 40px;
+    height: auto;
 }
 
 .projects h1{
@@ -180,7 +230,13 @@ header a{
     color: black;
 }
 
-.projects .col-md-4{
+@media (max-width :992px){
+    .button2{
+        display: none !important;
+    }
+}
+
+.projects .col-lg-4{
     padding: 50px;
 }
 
@@ -275,6 +331,10 @@ header a{
 .ach h3{
     font-weight: bold;
     font-size: 32px;
+}
+
+.ach .col-md-6, .col-12{
+    padding-top: 40px !important;
 }
 
 .ach p , a{
