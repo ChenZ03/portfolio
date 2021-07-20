@@ -196,7 +196,7 @@ header a{
 
 /* SKILLS */
 .skills{
-    background-color: #033D7A;
+    background-color: #e9e9e9;
     padding-bottom: 100px;
 }
 
@@ -204,7 +204,7 @@ header a{
     padding: 50px;
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .skills img{
@@ -245,25 +245,28 @@ header a{
     height: 350px;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 5px 6px #888888;
+    box-shadow: 5px 6px 60px #888888;
     position: relative;
+    transition: 400ms ease;
 }
 
 .box img{
     filter: brightness(90%);
     height: 100%;
     width: 100%;
+    transition: 400ms ease;
 }
 
 .box:hover img{
     opacity: 0.1;
     transform: scale(1.05);
-    transition: 400ms ease;
+    
 }
 
 .box:hover{
     box-shadow: 2px 3px #888888;
-    transition: 400ms ease;
+    transform: translateY(-1rem);
+    
 }
 
 .box .content{
@@ -273,11 +276,12 @@ header a{
     top: 40%;
     width: 100%;
     height: 100%;
+    transition: 400ms ease;
 }
 
 .box:hover .content{
     display: block;
-    transition: 400ms ease;
+    
 }
 
 .box .content h3{
@@ -429,7 +433,7 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #9F7F70;
-    border-top: 1px solid black;
+    border-top: 1px solid white;
 }
 
 footer h5{
