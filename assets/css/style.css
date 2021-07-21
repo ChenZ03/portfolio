@@ -1,6 +1,12 @@
+/* Universal  */
+
 @font-face {
     font-family: "AgencyFB";
     src: url(../Agency\ FB.ttf);
+}
+
+html{
+    overflow-x: hidden;
 }
 
 *{
@@ -8,7 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'AgencyFB' , sans-serif;
-    /* overflow-x: hidden; */
+    
 }
 
 @media (max-width : 1025px){
@@ -236,7 +242,7 @@ header a{
     }
 }
 
-.projects .col-lg-4{
+.projects .col-xl-4{
     padding: 50px;
 }
 
@@ -326,6 +332,15 @@ header a{
     font-size: 50px;
     font-weight: bold;
     color: black;
+}
+
+@media (max-width : 700px){
+    .ach .row{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
 .ach .row{
