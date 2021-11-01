@@ -1,2 +1,2 @@
 # My portfolio
-Website hosted on https://chenzhung.netlify.app/
+Website hosted on chenzhung.lovestoblog.com
