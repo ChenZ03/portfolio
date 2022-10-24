@@ -173,6 +173,7 @@ header a {
 	padding-top: 50px;
 	font-size: 55px;
 	font-weight: normal;
+	color: rgb(72, 72, 72);
 }
 
 .about .row .col-lg-7 h1 {
@@ -182,6 +183,7 @@ header a {
 
 .about .row .col-lg-7 h3 {
 	font-size: 24px;
+	color: rgb(72, 72, 72);
 }
 
 .about .row div {
@@ -204,6 +206,7 @@ header a {
 .about .row .col-lg-5 p {
 	font-size: 24px;
 	padding-left: 25px;
+	color: rgb(56, 56, 56);
 }
 
 /* SKILLS */
